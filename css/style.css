@@ -1,0 +1,150 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Jost', sans-serif;
+}
+
+
+.hero-section{
+	height: auto;
+	width: 100%;
+	background: url(../image/patt.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.hero-section h5{
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	position: relative;
+	margin-top: 20px;
+
+}
+.hero-section h5 i{
+	font-size: 15px;
+	position: absolute;
+	top: 2;
+}
+.hero-overly{
+	height: auto;
+	width: 100%;
+	padding: 100px 200px;
+	background: rgba(0, 134, 104, .9);
+
+}
+.icons{
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.left-icon{
+	height: 80px;
+	width: 80px;
+	background: #fff;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0,.1);
+	border: 1px solid #E4E4E4;
+	border-radius: 50%;
+	text-align: center;
+}
+.left-icon i{
+	font-size: 30px;
+	line-height: 80px;
+	color: #111;
+}
+.right-icon{
+	height: 80px;
+	width: 80px;
+	background: #fff;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0,.1);
+	border: 1px solid #E4E4E4;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.right-icon img{
+	height: auto;
+	width: 80px;
+}
+.mosque{
+	height: 350px;
+	width: 350px;
+	border-radius: 50%;
+	background: #00CB9B;
+	box-shadow: 15px 15px 15px rgba(0, 0, 0,.1);
+	margin: 0px 300px;
+	overflow: hidden;
+}
+.mosque img{
+	height: 330px;
+	width: 330px;
+	margin-top: 20px;
+}
+.login-box{
+	height: 100px;
+	width: 450px;
+	background: #00CB9B;
+	border-radius: 50px;
+	margin-left: 250px;
+	margin-top: 30px;
+}
+.login-box img{
+	height: 75px;
+	width: auto;
+	margin: 12.5px 0px;
+	margin-left:120px;
+	filter: invert(100%);
+	float: left;
+}
+.login-box h1{
+	font-size: 35px;
+	color: white;
+	margin-left: 10px;
+	line-height: 100px;
+	float: left;
+}
+.ramadan-items{
+	height: 200px;
+	width: 650px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 150px;
+}
+
+.ramadan-items div{
+	height: 140px;
+	width: 140px;
+	margin-left: 20px;
+	border-radius: 50%;
+	background: #033569;
+	overflow: hidden;
+}
+.ramadan-items div img{
+	height: 130px;
+	width: auto;
+	margin: 5px 5px;
+}
+.ramadan-items div:nth-child(2) img {
+	height: 188px;
+	width: auto;
+	margin: -24px -24px;
+}
+.headings{
+	height: 200px;
+	width: 650px;
+	margin-top: -80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 150px;
+	text-align: center;
+}
+.headings h1{
+	font-size: 20px;
+	color: white;
+	margin: 0px 21px;
+
+}
